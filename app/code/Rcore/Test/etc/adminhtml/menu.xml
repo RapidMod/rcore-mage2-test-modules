@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- http://webkul.com/blog/create-admin-menu-and-controller-in-magento2/ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Rcore_Reports::Test"
+             title="Campaigns"
+             module="Rcore_Test"
+             action="my_reports/test"
+             resource="Rcore_Test::Test"/>
+    </menu>
+</config>
